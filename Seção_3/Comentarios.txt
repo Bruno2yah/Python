@@ -1,2 +1,3 @@
 """ comentario """ -- DocString, um "comentario" multilingue, o interpretador le
 ... serve como placeholder, nao da erro, ao declarar variaveis ainda nao definidas, valor = ...
+print(f'O seu nome é {nome=}') # O = após a variavel apresenta o nome da variavel mais o valor dela
