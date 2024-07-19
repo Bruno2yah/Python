@@ -8,12 +8,14 @@ na palavra secreta
 - Se a letra digitada não estiver na palavra secreta; exiba *.
 Faça a contagem de tentativas do seu usuário
 """
+import os
 
-palavra_secreta = 'Emilly'
+palavra_secreta = 'Bruno'
 palavra_mostrada = ''
 respostas_certas = ''
 tentativas = 0
 
+os.system('cls')
 while True:
     letra_resposta = input('Digite uma letra: ')
     tentativas += 1 
@@ -36,5 +38,5 @@ while True:
 
     print(f'Palavra secreta: {palavra_mostrada}')
     if palavra_mostrada == palavra_secreta:
-        print(f'A plavra secreta era: {palavra_secreta}\nVocê concluiu em {tentativas}')
+        print(f'A plavra secreta era: {palavra_secreta}\nVocê concluiu em {tentativas} tentativas')
         break
