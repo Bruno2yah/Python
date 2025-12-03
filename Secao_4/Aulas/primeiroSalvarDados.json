@@ -1,0 +1,14 @@
+{
+  "Tipos de dados": {
+    "boolean": [
+      true,
+      false
+    ],
+    "Number": 1234,
+    "String": "Texto",
+    "Null": null,
+    "[]": "array",
+    "{}": "objeto"
+  },
+  "Importante": "json, não precisa ter varios dados, apenas um valor também é funcional"
+}
