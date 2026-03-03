@@ -1,0 +1,17 @@
+{
+  "Jogo 1": {
+    "nome": "The last of us",
+    "genero": "Ação",
+    "plataforma": "PS5"
+  },
+  "Jogo 2": {
+    "nome": "NBA 2K26",
+    "genero": "Esporte",
+    "plataforma": "PS5"
+  },
+  "Jogo 3": {
+    "nome": "Dark Souls Remastered",
+    "genero": "Souls like",
+    "plataforma": "Steam"
+  }
+}
